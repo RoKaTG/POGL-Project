@@ -11,18 +11,16 @@ import display.*;
 public class Main {
 	
 public static void main(String[] args) {
-		
-		/* Getting game rules from the players */
 		EventQueue.invokeLater(() ->  {
 			Scanner userInput = new Scanner(System.in);
-			System.out.println("Nombre de joueurs :");
+			System.out.println("Nombre de Joueurs :");
 			int nb_bandits = Integer.parseInt(userInput.nextLine());
-			System.out.println("Longueur du train : ");
+			System.out.println("Nombre de Wagon : ");
 			int nb_wagons = Integer.parseInt(userInput.nextLine());
 			int nb_actions = 5;
 			
-			/* Initialization of the game*/
-			Marshall MARSHALL = new Marshall(nb_wagons, 1, "Marston", 0.3, 0);
+			
+			Marshall MARSHALL = new Marshall(nb_wagons, 1, "Marshall Marshall", 0.3, 0);
 			ArrayList<Marshall> marshalls = new ArrayList<Marshall>();
 			marshalls.add(0, MARSHALL);
 			ArrayList<Bandit> bandits = new ArrayList<Bandit>();
@@ -41,19 +39,6 @@ public static void main(String[] args) {
 				userInput.close();
 		});
 
-		
-		/*boolean allActionsFinished = false;
-		while (!allActionsFinished) {
-			allActionsFinished = true;
-			for (int i = 0; i < bandits.size(); i++) {
-				if (!bandits.get(i).getFullAction()) {
-					allActionsFinished = false;
-				}
-			}
-		}
-		while(true) {
-			
-		}*/
 		
 	}
 
