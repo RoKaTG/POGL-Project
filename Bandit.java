@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Bandit extends Character{
 	private String name;
-	private ArrayList<Integer> pocket; //c'est un arraylist car c'est un tableau dynamique auquel on ajoute ou on retire des entiers
+	private ArrayList<Integer> pocket; 
 	private ArrayList<Action> actions;
 	private final int maxLoot = 4;
 	private int nb_actions_max;
@@ -14,51 +14,35 @@ public class Bandit extends Character{
 	private Color color;
 	private int nbBullets;
 
-	/**
-	 * Constructor to create a new Bandit in the game, at the top left corner of the train
-	 * @param name their name
-	 * @param ID their ID
-	 * @param nb_actions_max the maximum number of actions they can perform each round
-	 */
+	
 
 	public Bandit(String name, int ID, int nb_actions_max, Color c) {
 		super(0,0);
 		this.ID = ID;
 		this.name = name;
 		this.color = c;
-		this.pocket = new ArrayList<Integer>(); //on initialise le tableau a zero case et on l'agrandira plus tard
+		this.pocket = new ArrayList<Integer>(); 
 		this.actions = new ArrayList<Action>();
 		this.nb_actions_max = nb_actions_max;
 		this.nbBullets = 7;
 	}
 	
-	/*
-	 * GETTERS
-	 */
+	
 	
 	public ArrayList<Integer> getPocket() {
 		return this.pocket;
 	}
-	/**
-	 * Method to get the name of the Bandit
-	 * @return the name of the Bandit
-	 */
+	
 	public String getName() {
 		return this.name;
 	}
 	
-	/**
-	 * Method to get the ID of the Bandit
-	 * @return the ID of the Bandit
-	 */
+	
 	public int getID() {
 		return this.ID;
 	}
 	
-	/**
-	 * 
-	 * @return
-	 */
+	
 	public ArrayList<Action> getActionList(){
 		return this.actions;
 	}
@@ -81,15 +65,7 @@ public class Bandit extends Character{
 	}
 	
 	
-	/*
-	 * METHODS
-	 */
 	
-	/**
-	 * Moves the bandit of 1 Case in the direction
-	 * @param d
-	 * @param t
-	 */
 	public boolean move(Direction d, Train t) {
 		switch (d) {
 		case UP: 
@@ -125,7 +101,7 @@ public class Bandit extends Character{
 				System.out.println(this.name + " se déplace vers l'avant du train.");
 				return true;
 			} else {
-				System.out.println(this.name + " est déjà dans la locomotive.");
+				System.out.println(this.name + " est déjà dans le train.");
 				return false;
 			}
 		}
@@ -133,9 +109,6 @@ public class Bandit extends Character{
 	}
 
 	
-	/**
-	 *Moves the bandit from the wagon to the roof while dropping a loot
-	 */
 	
 	public boolean escapeRoof(Train t) {
 		if (this.getCoord()[1] - 1>=0) { 
@@ -148,11 +121,7 @@ public class Bandit extends Character{
 	}
 
 
-	/**
-	 * Method which returns the index of the passenger/loot the bandit will rob
-	 * @param t the train
-	 * @return passengerChosen the index of the passenger/loot if the number of passengers is not 0
-	 */
+	
 	public int choosePassenger(Train t) {
 		Random R = new Random();
 		Case[][] tab = t.getTrain();
@@ -164,12 +133,8 @@ public class Bandit extends Character{
 	}
 
 
-	/**
-	 * Method which returns the amount that the bandit will earn
-	 * @param t the train
-	 * @param passenger the index of the passenger we will rob
-	 * @return loot the amount of money the bandit will earn
-	 */
+	
+
 	public int takeLoot(Train t) {
 		int passenger = this.choosePassenger(t);
 		Case[][] tab = t.getTrain();
@@ -179,10 +144,7 @@ public class Bandit extends Character{
 	}
 	
 	
-	/**
-	 * Method which will give the money to the bandit and add a case to his pocket array and remove it from the train case
-	 * @param t the train
-	 */
+	
 	public void holdUp(Train t) {
 		if (this.pocket.size()<this.maxLoot) {
 			Case[][] tab = t.getTrain();
@@ -196,20 +158,14 @@ public class Bandit extends Character{
 		}
 	}
 
-	/**
-	 * Method which randomly chooses a loot index from the bandit's pocket
-	 * @return the loot index randomly chosen
-	 */
+	
 	public int chooseRandomLoot() {
 		Random R = new Random();
 		int lootChosen = R.nextInt(pocket.size());
 		return lootChosen;
 	}
 	
-	/**
-	 * Method which removes the loot from the bandit's pocket and leaves it on the case where the bandit dropped it
-	 * @param t the Train on which the action happens
-	 */
+	
 	public void dropLoot(Train t) {
 		if(this.getPocket().size() != 0) {
 			int lootChosen = this.chooseRandomLoot();
@@ -220,11 +176,7 @@ public class Bandit extends Character{
 		
 	}
 	
-	/**
-	 * Method which simulates the action of shooting, made by a bandit
-	 * @param t the Train where the bandits are
-	 * @param d the direction in which the bandit shoots
-	 */
+	
 	public void shoot(Direction d, Train t) {
 		Case[][] tab = t.getTrain();
 		int[] caseShot = new int[2];;
