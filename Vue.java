@@ -6,12 +6,12 @@ import java.util.ArrayList;
 
 import core.*;
 
-public class Controller implements ActionListener{
+public class Vue implements ActionListener{
 	
 	private Train train;
 	private ArrayList<Bandit> bandits;
 	
-	public Controller(Train train, ArrayList<Bandit> bandits) {
+	public Vue(Train train, ArrayList<Bandit> bandits) {
 		this.train = train;
 		this.bandits = bandits;
 	}
