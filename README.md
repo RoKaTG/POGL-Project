@@ -1,4 +1,5 @@
 # POGL-Project
 
-(YASSINE MSILINI°
+(YASSINE MSILINI)
+
 ******IN DEVELOPMENT SOON******
