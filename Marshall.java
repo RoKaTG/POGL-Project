@@ -8,7 +8,13 @@ public class Marshall {       //J'ai besoin d'une nouvelle classe pour les cara 
 	private int ID;
 }
 
-/*public Marshall() {
-}*/
+public Marshall(int x, int y, String name, double nervosite,int ID) {
+	super(x,y);
+	this.name = name;
+	this.Nervo_Marshall = nervosite;
+	this.ID = ID;
+	this.rand = new Random();
+}
+
 
 /*/Besoin de methods de deplacement ?/*/
