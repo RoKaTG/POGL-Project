@@ -16,6 +16,6 @@ Main.java |	/	|Commencement de la classe (manque la « bibliothèque ») à corr
 Action.java |	/	|Complet, correction de syntaxe. |	0| [x]
 Direction.java |	/|	Complet, correction de syntaxe. |	0| [x]
 Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/moove/shoot/holdup) non implémenter mais schématisé. |	3| [ ]
-Train.java |	/|	Commencement de la classe et diagramme fait(getNb*3/getTrain/Action.java) |	2| [ ]
+Train.java |	/|	Commencement de la classe et diagramme ajout methode getNB*3(06/05) |	2| [ ]
 Marshall.java |	/	|Classe commencé 0 méthode de faite. |	2| [ ]
 Vue.java |	/	|Classe complète, manque « bibliothèque ». |	1| [ ]
