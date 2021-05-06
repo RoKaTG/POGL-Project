@@ -8,4 +8,24 @@ public class Train {
 	private ArrayList<Tuple<Action,Integer>> todo;
   
   public Train(int nb_wagons, ArrayList<Bandit> bandits, ArrayList<Marshall> marshalls) {
+	  this.NB_WAGONS = nb_wagons;
+	  this.BANDITS = bandits;
+	  this.MARSHALLS = marshalls;
+	  /* ?????*/
+	 	 
+  }
+	
+	
+  public int getNB_WAGONS() {
+	  return this.NB_WAGONS;
+  }
+	
+	
+  public int getNB_BANDITS() {
+	  return this.NB_BANDITS;
+  }
+	
+	
+  public int getNB_MARSHALLS() {
+	  return this.MARSHALLS.size();
   }
