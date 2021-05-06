@@ -1,6 +1,8 @@
 # POGL-Project
 
 ******IN DEVELOPMENT SOON******
+
+
 **INTRODUCTION :**
 Le but de se projet est de faire fonctionner un code permettant de simuler une partie du jeu plus communémant appelé COLT EXPRESS en langage Java à l'aide d'eclipse ou d'IntelliJ.
 
