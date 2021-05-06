@@ -22,7 +22,7 @@ public class Train {
 	
 	
   public int getNB_BANDITS() {
-	  return this.NB_BANDITS;
+	  return this.BANDITS.size();
   }
 	
 	
