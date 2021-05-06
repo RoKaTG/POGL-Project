@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 
-
 public class Vue implements ActionListener{
 	
 	private Train train;
