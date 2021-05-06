@@ -19,4 +19,3 @@ Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/
 Train.java |	/|	Commencement de la classe et diagramme fait(getNb*3/getTrain/Action.java) |	2| [ ]
 Marshall.java |	/	|Classe commencé 0 méthode de faite. |	2| [ ]
 Vue.java |	/	|Classe complète, manque « bibliothèque ». |	1| [ ]
-[ ]
