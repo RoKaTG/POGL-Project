@@ -19,4 +19,4 @@ Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/
 Train.java |	Yassine|	Commencement de la classe et diagramme ajout methode getNB*3(06/05) |	2| [ ]
 Marshall.java |	Yassine	|Update methods set+get+deplacement (Manque les deplacements Marhsall en entier) |	2| [ ]
 Vue.java |	/	|Classe complète, manque « bibliothèque ». |	1| [ ]
-Wagon.java | Ilan | Update Constructeurs et Attributs. | 2 | [ ]
+Butin.java | Ilan | Update Constructeurs et Attributs. | 2 | [ ]
