@@ -17,14 +17,17 @@ public class Butin {
     }
 
     public int getBourse() {
+
         return stuff.get("Bourse");
     }
 
     public int getBijoux() {
+
         return stuff.get("Bijoux");
     }
 
     public int getMagot() {
+
         return stuff.get("Magot");
     }
 
@@ -38,7 +41,18 @@ public class Butin {
         this.stuff.put("Magot", 0);
     }
 
+    public void wagonInitialise() {
+        this.wagonReset();
+        int NB_BUTIN = new Random().nextInt(5);
+        int NB_BOURSE = 0;
+        for (int i = 0; i < NB_BUTIN ; i++)
+            NB_BOURSE = new Random().nextInt(NB_BUTIN + 1);
+        this.addBourse(NB_BOURSE);
+        this.addBijoux(NB_BUTIN - NB_BOURSE);
+    }
+
     public void addBourse(int val) {
+
         this.stuff.put("Bourse", this.stuff.get("Bourse") + val);
     }
 
@@ -70,13 +84,13 @@ public class Butin {
     }
 
     public boolean removeBijoux() {
-        if (this.stuff.get("Boijoux") < 1)
+        if (this.stuff.get("Bijoux") < 1)
             return false;
         else
             this.stuff.put("Bijoux", this.stuff.get("Bijoux") - 1);
         return true;
     }
-public boolean removeMagot() {
+    public boolean removeMagot() {
         if (this.stuff.get("Magot") == 1) {
             this.stuff.put("Magot", 0);
             return true;
@@ -103,11 +117,6 @@ public boolean removeMagot() {
             return 5;
 
         return 6;
-    }
-
-    public int removeStuff(String nom) {
-        int i = removeStuffInt();
-        return 1;
     }
 
     public int removeStuffInt() {
