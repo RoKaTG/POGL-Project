@@ -5,7 +5,9 @@ A l'aide de github.com, notre trinôme (_MSILINI Yassine_ALIOUCHOUCHE Ilan_KHAIR
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **REGLES DU JEU :**
+Le jeu se deroule à bord d'un train, composé d'une locomotive et d'un certain nombre de wagons. Les joueurs incarnent des bandits qui ont sauté à bord pour détrousser les passagers. Objectif : récupérer le plus de butin, chacun pour soi. Il s'agit d'un jeu de programmation dans lequel on alterne entre eux phases :
 
+###Planification : chaque joueur décide secrètement un certain nombre d'actions, que son personnage va effectuer dans l'ordre.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **PARTIES DU SUJET TRAITEES :**
 Au niveau de l'implementation des aspects du jeu demandés par le sujet, tout a été fait, ensuite pour la partie dite "Libre" où nous devions rajouter une fonctionnalité bonus, nous avons décidé de faire une bulle d'affichage des actions faites par les joueurs ainsi qu'une interface qui permet de jouer de maniere optimisé à plusieurs sur un seul écran.
