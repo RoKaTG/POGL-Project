@@ -21,3 +21,4 @@ Marshall.java |	Yassine	|Update methods set+get+deplacement (Manque les deplacem
 VueTrain.java | Marwan |Classe complète|	3 | [x]
 Butin.java | Ilan | Ajout Randomizer. | 4 | [x]
 Action2.java | Ilan | / | / |[ ]
+Affichage.java | Yassine | Commencement de la fenêtre de jeu | 5 |[ ]
