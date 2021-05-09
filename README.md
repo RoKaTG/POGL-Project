@@ -14,7 +14,7 @@ Classe : |	Code : |	Progression : |	Difficulté sur 5 : | Compléter/Corriger : 
 ---------|---------|----------------|--------------------|----------------------|                  
 Main.java |	/	|Commencement de la classe (manque la « bibliothèque ») à corriger par rapport à la fin de Marshall.java et Train.java. |	2| [ ]
 Action.java |	Ilan	|Complet, correction de syntaxe. |	0| [x]
-Direction.java |	/|	Complet, correction de syntaxe. |	0| [x]
+Direction.java |	Marwan |	Complet, correction de syntaxe. |	0| [x]
 Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/moove/shoot/holdup) non implémenter mais schématisé. |	3| [ ]
 Train.java |	Yassine|	Commencement de la classe et diagramme ajout methode getNB*3(06/05) |	2| [ ]
 Marshall.java |	Yassine	|Update methods set+get+deplacement (Manque les deplacements Marhsall en entier) |	2| [ ]
