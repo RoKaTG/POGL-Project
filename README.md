@@ -11,14 +11,10 @@ A l'aide de github.com, notre trinôme (_MSILINI Yassine_ALIOUCHOUCHE Ilan_KHAIR
 Au niveau de l'implementation des aspects du jeu demandés par le sujet, tout a été fait, ensuite pour la partie dite "Libre" où nous devions rajouter une fonctionnalité bonus, nous avons décidé de faire une bulle d'affichage des actions faites par les joueurs ainsi qu'une interface qui permet de jouer de maniere optimisé à plusieurs sur un seul écran.
 Sur notre version, le jeu est jouable de 1 à 4 joueurs (_ceci est dû à la limite de l'interface visuelle_) dans un train avec tout au plus 6 wagons.
 Nous avons aussi rajouté la possibilité d'ajuster la nervosité du Marshall. La personnalisation du jeu pour les joueurs s'etends jusqu'à, le choix du nom du bandit, la nervosite du Marshall, la taille du plateau (_donc le nombre de wagons_) et enfin, le choix de retour en arrière en pleine partie.
-
+du Marshall
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**ARCHITECTURE DU PROJET :**
-Pour l'architecture suivie, nous avons décidé de rester sur une architecture classique qui était suggerée par le sujet : Modele-Vue-Controleur plus communément appelé MVC.
+ghgfhfghfggggg
 
-**_Modele :_**
-
-Le Modele était composé des classes les plus importante au projet, comme son nom l'indique nous avions simplement les templates de tout les élèments du jeu que ça soit le Marhsall, les Bandis, le Train, les Butins ainsi que les actions possibles dans le jeu tout a fait et ordonnées de manière logique et cohérente (au niveau de la création des classes et de l'utilisation de notre propre diagramme de classe)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **TRAVAIL EFFECTUE :**
 Nous sommes en plain traitement de la partie 2.X du sujet du projet de POGL, dans le tableau ci dessous l'avancement du projet :
