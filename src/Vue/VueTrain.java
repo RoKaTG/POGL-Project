@@ -2,13 +2,6 @@ package Vue;
 
 import Modele.Bandit;
 import Modele.Train;
-import Modele.Butin;
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
-import javax.swing.UIManager;
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 
 public class VueTrain {
     public void Affichage() {
@@ -21,7 +14,7 @@ public class VueTrain {
         for (Bandit b : Train.banditList) {
             if (b.getNiveau()) {
                 for (int i = 0; i < b.getnWagon(); i++)
-                    string += ".............";
+                    string += "        ";
                 string += b.nom;
                 string += "(" + (Train.NB_ACTION - b.actionList.size()) + ")";
             }
