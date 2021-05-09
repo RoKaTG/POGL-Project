@@ -12,11 +12,11 @@ Nous sommes en plain traitement de la partie 2.X du sujet du projet de POGL, dan
 
 Classe : |	Code : |	Progression : |	Difficulté sur 5 : | Compléter/Corriger : |
 ---------|---------|----------------|--------------------|----------------------|                  
-Main.java |	Yassine	|Commencement de la classe (manque la « bibliothèque ») à corriger par rapport à la fin de Marshall.java et Train.java. |	2| [ ]
+Main.java |	Yassine	|Classe complète. |	2| [x]
 Action.java |	Ilan	|Complet, correction de syntaxe. |	0| [x]
 Direction.java |	Marwan |	Complet, correction de syntaxe. |	0| [x]
 Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/moove/shoot/holdup) non implémenter mais schématisé. |	3| [ ]
-Train.java |	Yassine|	Commencement de la classe et diagramme |	2| [ ]
+Train.java |	Yassine|	Classe complète. |	4.5| [x]
 Marshall.java |	Yassine	|Update methods set+get+deplacement (Manque les deplacements Marhsall en entier) |	2| [ ]
 VueTrain.java | Marwan |Classe complète|	3 | [x]
 Butin.java | Ilan | Ajout Randomizer. | 4 | [ ]
