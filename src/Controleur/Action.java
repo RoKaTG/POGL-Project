@@ -1,4 +1,6 @@
 package Controleur;
 
-public class Action {
+public enum Action {
+    VaHaut, VaBas, VaGauche, VaDroite, TireHaut, TireBas, TireGauche, TireDroite, Vole
 }
+
