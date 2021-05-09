@@ -1,7 +1,8 @@
 package Controleur;
 
-public class Direction {
-
+public enum Direction {
+    AVANT,
+    ARRIERE,
+    HAUT,
+    BAS
 }
-
-
