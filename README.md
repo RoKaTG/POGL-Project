@@ -13,6 +13,10 @@ Sur notre version, le jeu est jouable de 1 à 4 joueurs (_ceci est dû à la lim
 Nous avons aussi rajouté la possibilité d'ajuster la nervosité du Marshall. La personnalisation du jeu pour les joueurs s'etends jusqu'à, le choix du nom du bandit, la nervosite du Marshall, la taille du plateau (_donc le nombre de wagons_) et enfin, le choix de retour en arrière en pleine partie.
 
 
+**ARCHITECTURE DU PROJET :**
+Pour l'architecture suivie, nous avons décidé de rester sur une architecture classique qui était suggerée par le sujet : Modele-Vue-Controleur plus communément appelé MVC.
+#Modele
+
 **TRAVAIL EFFECTUE :**
 Nous sommes en plain traitement de la partie 2.X du sujet du projet de POGL, dans le tableau ci dessous l'avancement du projet :
 
