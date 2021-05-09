@@ -16,7 +16,7 @@ Main.java |	Yassine	|Commencement de la classe (manque la « bibliothèque ») �
 Action.java |	Ilan	|Complet, correction de syntaxe. |	0| [x]
 Direction.java |	Marwan |	Complet, correction de syntaxe. |	0| [x]
 Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/moove/shoot/holdup) non implémenter mais schématisé. |	3| [ ]
-Train.java |	Yassine|	Commencement de la classe et diagramme ajout methode getNB*3(06/05) |	2| [ ]
+Train.java |	Yassine|	Commencement de la classe et diagramme |	2| [ ]
 Marshall.java |	Yassine	|Update methods set+get+deplacement (Manque les deplacements Marhsall en entier) |	2| [ ]
 VueTrain.java | Marwan |Classe complète|	3 | [x]
 Butin.java | Ilan | Ajout Randomizer. | 4 | [ ]
