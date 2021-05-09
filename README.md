@@ -14,7 +14,8 @@ Nous avons aussi rajouté la possibilité d'ajuster la nervosité du Marshall. L
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **ARCHITECTURE DU PROJET :**
-Pour l'architecture suivie, nous avons décidé de rester sur une architecture classique qui était suggerée par le sujet : Modele-Vue-Controleur plus communément appelé MVC
+Pour l'architecture suivie, nous avons décidé de rester sur une architecture classique qui était suggerée par le sujet : Modele-Vue-Controleur plus communément appelé MVC.
+
 **_Modele_**
 Le Modele était composé des classes les plus importante au projet, comme son nom l'indique nous avions simplement les templates de tout les élèments du jeu que ça soit le Marhsall, les Bandis, le Train, les Butins ainsi que les actions possibles dans le jeu tout a fait et ordonnées de manière logique et cohérente (_au niveau de la création des classes et de l'utilisation de notre propre diagramme de classe_).
 
