@@ -19,4 +19,4 @@ Bandit.java |	/	|Bibliothèque incomplète, methodes d’action principal (loot/
 Train.java |	Yassine|	Classe complète. |	4.5| [x]
 Marshall.java |	Yassine	|Update methods set+get+deplacement (Manque les deplacements Marhsall en entier) |	2| [ ]
 VueTrain.java | Marwan |Classe complète|	3 | [x]
-Butin.java | Ilan | Ajout Randomizer. | 4 | [ ]
+Butin.java | Ilan | Ajout Randomizer. | 4 | [x]
