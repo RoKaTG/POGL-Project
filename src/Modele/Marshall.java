@@ -41,4 +41,34 @@ public class Marshall {
         }
         return true;
     }
+
+    public void deplacement(Direction dir) {
+        if (this.isDeplacement(dir)) {
+            switch(dir) {
+                case ARRIERE:
+                    this.nWagon--;
+                    break;
+                case AVANT:
+                    this.nWagon++;
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    public float nervositeM(float n) {
+        n = new Random().nextFloat();
+        return 0;
+    }
+
+    public void deplacementMarshall(float n) {
+        if (nervositeM(n) < this.NERVOSITE_MARSHALL) {
+            System.out.println("Le marhsall" + nomM + "se deplace, Attention !" );
+            if (new Random().nextBoolean())
+                this.deplacement(Direction.ARRIERE);
+            else
+                this.deplacement(Direction.AVANT);
+        }
+    }
 }
