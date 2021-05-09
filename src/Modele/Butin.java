@@ -178,4 +178,29 @@ public boolean removeMagot() {
         System.out.println("Error, No Magot Avalaible");
         return 0;
     }
+public int removeStuff(String nom) {
+        int i = removeStuffInt();
+        switch(i) {
+
+            case 0:
+                Train.infoJeu(nom + " a volé des bijoux.");
+                this.removeBijoux();
+                break;
+
+            case 1:
+                Train.infoJeu(nom + " a volé de la bourse.");
+                this.removeBourse();
+                break;
+
+            case 2:
+                Train.infoJeu(nom + " a trouvé le jackpot !");
+                this.removeMagot();
+                break;
+
+            case 3:
+                Train.infoJeu(nom + " a trouvé un wagon vide :/");
+                break;
+        }
+        return i;
+    }
 }
