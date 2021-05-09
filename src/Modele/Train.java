@@ -18,4 +18,8 @@ public class Train {
         Train.NB_MANCHE = 1;
         Train.marshall = new Marshall(0.3);
     }
+
+    public static void infoJeu(String info) {
+
+    }
 }
