@@ -10,7 +10,7 @@ public class Train {
     public static int NB_MANCHE;
     public static Marshall marshall;
     private String N;
-    ArrayList<Butin> wagonList = new ArrayList<Butin>();
+    static ArrayList<Butin> wagonList = new ArrayList<Butin>();
     ArrayList<Bandit> banditList = new ArrayList<Bandit>();
 
     public Train(int nWagon) {
