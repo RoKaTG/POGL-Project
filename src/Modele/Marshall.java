@@ -17,7 +17,7 @@ public class Marshall {
         this.nomM = "Joe";
     }
 
-    public double getNervosie() {
+    public double getNervosite() {
         return this.NERVOSITE_MARSHALL;
     }
 
