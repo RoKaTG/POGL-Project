@@ -15,7 +15,7 @@ Classe : |	Code : |	Progression : |	Difficulté sur 5 : | Compléter/Corriger : 
 Main.java |	Yassine	|Classe complète. |	2| [x]
 Action.java |	Ilan	|Complet, correction de syntaxe. |	0| [x]
 Direction.java |	Marwan |	Complet, correction de syntaxe. |	0| [x]
-Bandit.java |	Marwan	|Bibliothèque incomplète, methodes d’action principal (loot/moove/shoot/holdup) non implémenter mais schématisé. |	3| [ ]
+Bandit.java |	Marwan	|Classe complète |	3| [x]
 Train.java |	Yassine|	Classe complète. |	4.5| [x]
 Marshall.java |	Yassine	|Classe complète. |	2| [x]
 VueTrain.java | Marwan |Classe complète.|	3 | [x]
