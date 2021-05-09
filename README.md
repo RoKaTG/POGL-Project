@@ -54,5 +54,7 @@ Enfin la plus grosse difficulté au niveau du code brut était dans l'utilisatio
 **COPYRIGHTS :**
 
 Monsieur Thibault Balabonski de l'Université Paris Saclay et l'utilisation de son fichier Conway.java.
+
 Alex Lee, Youtube : Alex Lee.
+
 Gina Sprint, Youtube : Gina Sprint.
