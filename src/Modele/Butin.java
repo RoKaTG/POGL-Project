@@ -76,4 +76,106 @@ public class Butin {
             this.stuff.put("Bijoux", this.stuff.get("Bijoux") - 1);
         return true;
     }
+public boolean removeMagot() {
+        if (this.stuff.get("Magot") == 1) {
+            this.stuff.put("Magot", 0);
+            return true;
+        }
+        return false;
+    }
+
+    public int etatStuff() {
+        int bijoux = getBijoux();
+        int bourse = getBourse();
+        int magot = getMagot();
+
+        if (getnStuff() == 0)
+            return 0;
+        if (bijoux + bourse == 0 || bijoux + magot == 0 || bourse + magot == 0)
+            return 1;
+        if (bijoux == 0 && bourse != 0 && magot != 0)
+            return 2;
+        if (bijoux != 0 && bourse == 0 && magot != 0)
+            return 3;
+        if (bijoux !=0 && bourse !=0 && magot == 0)
+            return 4;
+        if (bijoux != 0 && bourse != 0 && magot != 0)
+            return 5;
+
+        return 6;
+    }
+
+    public int removeStuff(String nom) {
+        int i = removeStuffInt();
+        return 1;
+    }
+
+    public int removeStuffInt() {
+        switch( etatStuff() ) {
+
+            case 0:
+                return 0;
+
+            case 1:
+                if (getBijoux() > 0) {
+                    removeBijoux();
+                    return 1;
+                }
+                if (getBourse() > 0) {
+                    removeBourse();
+                    return 2;
+                }
+                if (getMagot()  > 0) {
+                    removeMagot();
+                    return 3;
+                }
+
+            case 2:
+                if (new Random().nextBoolean()) {
+                    removeBourse();
+                    return 2;
+                }
+                else {
+                    removeMagot();
+                    return 3;
+                }
+
+            case 3:
+                if (new Random().nextBoolean()) {
+                    removeBijoux();
+                    return 1;
+                }
+                else {
+                    removeMagot();
+                    return 3;
+                }
+
+            case 4:
+                if (new Random().nextBoolean()) {
+                    removeBijoux();
+                    return 1;
+                }
+                else {
+                    removeBourse();
+                    return 2;
+                }
+
+            case 5:
+                int rand = new Random().nextInt(3);
+                if (rand == 0) {
+                    removeBijoux();
+                    return 1;
+                } else if (rand == 1) {
+                    removeBourse();
+                    return 2;
+                } else if (rand == 2) {
+                    removeMagot();
+                    return 3;
+                }
+                break;
+
+        }
+        System.out.println("Error, No Magot Avalaible");
+        return 0;
+    }
 }
