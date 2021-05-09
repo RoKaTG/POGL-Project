@@ -40,3 +40,19 @@ VueTrain.java | Marwan |Classe complète.|	3 | [x]
 Butin.java | Ilan | Classe complète. | 4 | [x]
 Action2.java | Ilan | Classe complète.| 4 |[x]
 Affichage.java | Yassine | Commencement de la fenêtre de jeu. | 5 |[x]
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**DIFFICULTES :**
+
+Les premieres difficultés se sont retrouvées dans l'utilisation de gitub ainsi que intelliJ, en effet nous avons eu plusieurs problème technique à ce niveau la, même si, en effet, ses deux supports nous ont permis une très bonne organisation, certain commit et push ne se faisaient pas et pire ! Ils undo toutes les modifications faites dans le commit et cela ne faisaient perdre beaucoup de temps ainsi que des heures de travailles ! (Yassine a du refaire toute la class Affichage.java à cause de cela !).
+
+Ensuite, les erreurs principales trouvées et rencontrées etaient generalement de la syntaxe Java et au niveau de l'accreditation mémoire, en effet, à la fin de notre premiere version, la mal optimisation de certaine classe ont fait que le jeu avait beaucoup trop de bug à cause de la mémoire.
+
+Enfin la plus grosse difficulté au niveau du code brut était dans l'utilisation des boutons et d'action, nous avions pris du temps à compendre la manière qu'il fallait utiliser pour codage des actions et de l'actualisation de la fenêtre d'affichage des commandes.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**COPYRIGHTS :**
+
+Monsieur Thibault Balabonski de l'Université Paris Saclay et l'utilisation de son fichier Conway.java.
+Alex Lee, Youtube : Alex Lee.
+Gina Sprint, Youtube : Gina Sprint.
