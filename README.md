@@ -18,12 +18,14 @@ Pour l'architecture suivie, nous avons décidé de rester sur une architecture c
 **_Modele_**
 Le Modele était composé des classes les plus importante au projet, comme son nom l'indique nous avions simplement les templates de tout les élèments du jeu que ça soit le Marhsall, les Bandis, le Train, les Butins ainsi que les actions possibles dans le jeu tout a fait et ordonnées de manière logique et cohérente (_au niveau de la création des classes et de l'utilisation de notre propre diagramme de classe_).
 
-**_Vue**
+**_Vue_**
+La vue était composée des classes permettant l'affichage des élèments du train comme les butins, la position du Marshall ainsi que des bandits mais aussi le nombre wagons etc.
+
+**_Controleur_**
+Le Controleur était composé de deux classes permettant le bon fonctionnement des mouvements : Action et Direction ainsi que du main permettant le lancement du jeu.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **TRAVAIL EFFECTUE :**
-Nous sommes en plain traitement de la partie 2.X du sujet du projet de POGL, dans le tableau ci dessous l'avancement du projet :
-
 
 Classe : |	Code : |	Progression : |	Difficulté sur 5 : | Compléter/Corriger : |
 ---------|---------|----------------|--------------------|----------------------|                  
@@ -36,4 +38,4 @@ Marshall.java |	Yassine	|Classe complète. |	2| [x]
 VueTrain.java | Marwan |Classe complète.|	3 | [x]
 Butin.java | Ilan | Classe complète. | 4 | [x]
 Action2.java | Ilan | Classe complète.| 4 |[x]
-Affichage.java | Yassine | Commencement de la fenêtre de jeu. | 5 |[ ]
+Affichage.java | Yassine | Commencement de la fenêtre de jeu. | 5 |[x]
