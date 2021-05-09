@@ -3,8 +3,6 @@ package Modele;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.swing.UIManager;
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 
 public class Train {
     public static int NB_WAGON;
@@ -69,7 +67,15 @@ public class Train {
         scanner.close();
     }
 
-    public static void infoJeu(String info) {
+    public static void newsReset() {
+        Train.N = "";
+    }
 
+    public static void infoJeu(String info)	{
+        System.out.println(info);Train.N += (info + "<br/><br/>") ;
+    }
+
+    public static String newsGet(){
+        return Train.N;
     }
 }
