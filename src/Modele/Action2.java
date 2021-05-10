@@ -62,7 +62,7 @@ public class Action2 {
             switch(ation) {
 
                 case Vole:
-                    Train.infoJeu("Le bandit " + (numB+1) + " ( " + Train.banditList.get(numB).nom + " ) veut recup un item" );
+                    Train.infoJeu("Le bandit " + (numB+1) + " ( " + Train.banditList.get(numB).nom + " ) veut voler" );
                     Train.banditList.get(numB).vole();
                     break;
 
@@ -89,11 +89,11 @@ public class Action2 {
 
                 case VaHaut:		Train.banditList.get(numB).deplacement(Direction.HAUT); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement haut\n"); break;
 
-                case VaBas:		Train.banditList.get(numB).deplacement(Direction.BAS); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouv Bas \n"); break;
+                case VaBas:		Train.banditList.get(numB).deplacement(Direction.BAS); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement Bas \n"); break;
 
-                case VaGauche:	Train.banditList.get(numB).deplacement(Direction.ARRIERE); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouv Gauche \n"); break;
+                case VaGauche:	Train.banditList.get(numB).deplacement(Direction.ARRIERE); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement Gauche \n"); break;
 
-                case VaDroite:	Train.banditList.get(numB).deplacement(Direction.AVANT); Train.infoJeu(Train.banditList.get(numB).nom + " : Move droite \n"); break;
+                case VaDroite:	Train.banditList.get(numB).deplacement(Direction.AVANT); Train.infoJeu(Train.banditList.get(numB).nom + " : Movement droite \n"); break;
 
                 default:
                     break;
