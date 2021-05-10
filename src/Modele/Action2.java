@@ -87,14 +87,17 @@ public class Action2 {
 
                     break;
 
-                case VaHaut:		Train.banditList.get(numB).deplacement(Direction.HAUT); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement haut\n"); break;
+                case VaHaut:
+                    Train.banditList.get(numB).deplacement(Direction.HAUT); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement haut\n"); break;
 
-                case VaBas:		Train.banditList.get(numB).deplacement(Direction.BAS); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement Bas \n"); break;
+                case VaBas:
+                    Train.banditList.get(numB).deplacement(Direction.BAS); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement Bas \n"); break;
 
-                case VaGauche:	Train.banditList.get(numB).deplacement(Direction.ARRIERE); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement Gauche \n"); break;
+                case VaGauche:
+                    Train.banditList.get(numB).deplacement(Direction.ARRIERE); Train.infoJeu(Train.banditList.get(numB).nom + " : Mouvement Gauche \n"); break;
 
-                case VaDroite:	Train.banditList.get(numB).deplacement(Direction.AVANT); Train.infoJeu(Train.banditList.get(numB).nom + " : Movement droite \n"); break;
-
+                case VaDroite:
+                    Train.banditList.get(numB).deplacement(Direction.AVANT); Train.infoJeu(Train.banditList.get(numB).nom + " : Movement droite \n"); break;
                 default:
                     break;
             }
@@ -149,7 +152,7 @@ public class Action2 {
             }
         }
 
-        // Exécuter les actions quand tout le monde a fini de tout rentrer
+        // Exécuter après les 6 actions possible
         int nbTotalActions = 0;
         for(int i = 0 ; i < Train.NB_BANDIT ; i++)
             nbTotalActions += Train.banditList.get(i).actionList.size();
