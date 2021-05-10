@@ -23,8 +23,8 @@ public class VueTrain {
 
 
         for (int i = 0; i < Train.NB_WAGON - 1; i++)
-            string += " __   ";
-        string += " U__   " + "\n<br/>";
+            string += " ____   ";
+        string += " U__ _  " + "\n<br/>";
 
 
         for (int i = 0; i < Train.NB_WAGON - 1; i++) {
@@ -36,8 +36,8 @@ public class VueTrain {
         string += "/    " + Train.wagonList.get(Train.NB_WAGON - 1).getnStuff() + "   L\\";
         string += "\n<br/>";
         for (int i = 0; i < Train.NB_WAGON - 1; i++)
-            string += "--O-----O--  ";
-        string += " -O-O----O-- ";
+            string += "--O---O--OO  ";
+        string += " -OO----O--O ";
         string += "\n<br/>";
         for (Bandit b : Train.banditList) {
             if (!b.getNiveau()) {
